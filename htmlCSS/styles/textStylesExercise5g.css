@@ -1,0 +1,25 @@
+p {
+  font-family: Arial;
+  margin-bottom: 0;
+}
+.freecode-domain {
+  font-weight: bold;
+  font-size: 12px;
+  
+}
+.freecode-text {
+  color: gray;
+  font-weight: 100;
+}
+.middle-body-text {
+  font-size: 12px;
+  width: 370px;
+  line-height: 17px;
+  margin-top: 3px;
+}
+.footer-text {
+  font-size: 12px;
+}
+.chp-text {
+  color: rgb(15, 144, 230);
+}

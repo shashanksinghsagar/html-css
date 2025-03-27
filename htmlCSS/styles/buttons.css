@@ -1,0 +1,243 @@
+.subscribe-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom:8px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+.subscribe-button:hover {
+  opacity: o.8;
+}
+.subscribe-button:active {
+  opacity: 0.3;
+}
+.join-button {
+  background-color: white;
+  border-color:  rgb(34, 195, 224);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(41, 118, 211);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 2px;
+  cursor: pointer; 
+  margin-right: 8px;
+  transition: background-color 0.15s,
+    color 0.15s;
+  vertical-align: top;
+}
+.join-button:hover {
+  background-color: rgb(41, 118, 211);
+  color: white;
+}
+.join-button:active {
+  background-color: rgb(41, 118, 211);
+  color: white;
+  opacity: 0.3;
+}
+.tweet-button {
+  background-color: rgb(16, 146, 227);
+  color: white;
+  border: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top:8px;
+  padding-bottom: 6px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+}
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+.request-now-button {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 36px;
+  width: 110px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.request-now-button:hover {
+  opacity: 0.5;
+}
+.add-to-cart-button {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  border-radius: 15px;
+  height: 36px;
+  width: 170px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.add-to-cart-button:hover {
+  background-color: black;
+  color: white;
+}
+.buy-now-button {
+  background-color: rgb(255, 164, 28);
+  color: black;
+  border: none;
+  border-radius: 15px;
+  height: 36px;
+  width: 170px;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: opacity 0.15s; 
+}
+.buy-now-button:hover {
+  opacity: 0.6;
+}
+.sign-up-button { 
+  background-color: rgb(46, 164, 79);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  height: 36px;
+  width: 80px;
+  cursor: pointer; 
+  transition: box-shadow 0.15s;
+}
+.sign-up-button:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.get-started-button {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+  height: 36px;
+  width: 110px;
+  margin-right: 8px;
+  cursor: pointer; 
+  transition: background-color, 0.15s, color 0.15s;
+}
+.get-started-button:hover {
+  background-color: white;
+  color: rgb(121, 82, 179);
+}
+.download-button {
+  background-color: rgb(108, 117, 125);
+  color: white;
+  border-color: rgb(108, 117, 125);
+  border-style: solid;
+  border-radius: 2px;
+  font-weight: bold;
+  height: 36px;
+  width: 90px;
+  border-width: 1px;
+  cursor: pointer; 
+  transition: background-color 0.15s, color 0.15s;
+}
+.download-button:hover {
+  background-color: white;
+  color: rgb(108, 117, 125);
+}
+.apply-on-company-website-button {
+  background-color: rgb(10, 102, 194);
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  height: 36px;
+  width: 220px;
+  margin-right: 8px;
+  cursor: pointer; 
+  transition: background-color 0.15s, border-width 0.15s, border-color 0.15s;
+}
+.apply-on-company-website-button:hover {
+  background-color:aqua;
+  border-width: 2px;
+  border-color: black;
+}
+.save-button {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px;
+  font-weight: bold;
+  height: 36px;
+  width: 90px;
+  border-color:  rgb(10, 102, 194);
+  cursor: pointer; 
+  transition: background-color 0.15s, border-width 0.15s,border-color 0.15s;
+}
+.save-button:hover {
+  background-color:aqua;
+  border-width: 2px;
+  border-color: black;
+}
+.back-to-amazon-link {
+  color: rgb(0,113,133);
+  transition: color 0.15s;
+}
+.back-to-amazon-link:hover {
+  color: rgb(181, 139, 14);
+}
+.nike-black-running-shoes-p {
+  font-size: 36px;
+  font-weight: bolder;
+}
+.in-stock-p {
+  color: rgb(0,118,o);
+  font-weight: bold;
+}
+.back-buttom {
+  padding-top: 8px;
+  padding-bottom: 7px;
+}
+.next-buttom {
+  padding-top: 8px;
+  padding-bottom: 7px;
+}
+.stretch-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  transition: padding 1s;
+  text-align: center;
+  cursor: pointer;
+}
+.stretch-button:hover {
+  padding: 8px 20px;
+}
+.shadow-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  transition: box-shadow 0.15s;
+}
+.shadow-button:hover {
+  box-shadow:5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.one-two-three-button {
+  background-color: green;
+  color: white;
+  padding: 8px 10px;
+  border: none;
+  cursor: pointer;
+  transition: padding 0.15s;
+  margin-right: 8px;
+}
+.one-two-three-button:hover {
+  padding: 8px 14px;
+}
