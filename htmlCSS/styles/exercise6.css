@@ -6,7 +6,6 @@ body {
 
 .model-text {
   text-align: center;
-  font-family: "Montserrat";
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 0;
@@ -14,6 +13,5 @@ body {
 
 .footer-text {
   text-align: center;
-  font-family: "Montserrat", sans-serif;
   margin-top: 10px;
 }
