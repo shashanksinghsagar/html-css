@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: white;
+        font-family: Arial;
+        width: 341px;
+        margin: auto;
+        justify-content: center;
+        margin-top: 39px;
+      }
+      .template2 {
+        position: relative;
+        width: 341px;
+        height: 174.11px;
+        border: 1.5px solid rgb(255, 107, 130);
+      }
+      .badge {
+        position: absolute;
+        top: -5px;
+        right: 5px;
+        font-family: Arial, sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        max-width: 119px;
+        min-width: 119px;
+        max-height: 26px;
+        min-height: 26px;
+        border-radius: 0 0 4px 4px;
+        background-color: rgb(255, 107, 130);
+        color:white;
+        text-align: center;
+        text-justify: auto;
+        padding-top: 5px;
+      }
+      .badge::after {
+        content: "";
+        position: absolute;
+        bottom: 27px;
+        right: 119px;
+        width: 0;
+        height: 0;
+        border-left: 4px solid transparent;
+        border-right: 0 solid transparent;
+        border-bottom: 4px solid rgb(215, 68, 91);
+      }
+      .badge::before {
+        content: "";
+        position: absolute;
+        bottom: 27px;
+        right: -5.9px;
+        width: 0;
+        height: 0;
+        border-left: 0px solid transparent;
+        border-right: 6.5px solid transparent;
+        border-bottom: 4px solid rgb(215, 68, 91);
+    }
+    </style>
+  </head>
+  <body>
+    <div class="template2">
+      <div class="badge">MOST POPULAR</div>
+    </div>
+  </body>
+</html>

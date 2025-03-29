@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: white;
+        font-family: Arial, sans-serif;
+        width: 341px;
+        margin: auto;
+        justify-content: center;
+        margin-top: 39px;
+      }
+      .template-second-div {
+        position: relative;
+        max-width: 341px;
+        height: 174.11px;
+        border: 1.5px solid rgb(255, 107, 130);
+      }
+      .template-table-unit-second {
+        width: 100%;
+        height: 95%;
+        margin-top: 10px;
+      }
+      input[type=radio] {
+        appearance: none;
+        width: 14.46px;
+        height: 14.46px;
+        color: rgb(255, 107, 130);
+        border: 0.9px solid rgb(255, 107, 130);
+        border-radius: 50%;
+        position: relative;
+        transition: 0.15s;
+      }
+      input[type="radio"]:checked::before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        background-color: rgb(255, 107, 130);
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .radio-button {
+        width: 40px;
+        height: 40px;
+        text-align: right;
+      }
+      .radio {
+        display: flex
+      }
+      .unit-span {
+        margin-left: 10px;
+      }
+      .unit {
+        vertical-align: middle;
+        height: 50px;
+      }
+      .unit-p {
+        font-family: Arial, sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+      }
+      .unit1 {
+        display: flex;
+        align-items: start;
+      }
+      .percentage-span {
+        font-family: Arial, sans-serif;
+        background-color: rgb(255, 107, 130);
+        color: white;
+        font-weight: normal;
+        margin-left: 10px;
+        padding: 2px 6px;
+        font-size: 12px;
+        font-weight: 400;
+      }
+      .standard-price {
+        font-family: Arial, sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: 3px;
+
+      }
+      .usd-price-p {
+        font-family: Arial, sans-serif;
+        font-weight: 500;
+        font-size: 14.46px;
+      }
+      .strikethrough-span {
+        display: block;
+        font-family: Arial, sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        color: rgba(0,0,0,0.4);
+        text-decoration: line-through;
+      }
+      .size {
+        font-family: Arial, sans-serif;
+        font-weight: 400;
+        font-size: 9.94px;
+        height: 15px;
+      }
+      .numbering {
+        font-family: Arial, sans-serif;
+        font-weight: 400;
+        font-size: 9.04px;
+        width: 15px;
+      }
+      .dropdown {
+        width: 65.98px;
+        height: 25.31px;
+        border-radius: 1.81px;
+        border: 0.9px solid rgb(217,217,217);
+      }
+      .sizeandcolour-div {
+        margin-top: -20px;
+      }
+      .badge {
+        position: absolute;
+        top: -5px;
+        right: 5px;
+        font-family: Arial, sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        max-width: 119px;
+        min-width: 119px;
+        max-height: 26px;
+        min-height: 26px;
+        border-radius: 0 0 4px 4px;
+        background-color: rgb(255, 107, 130);
+        color:white;
+        text-align: center;
+        text-justify: auto;
+        padding-top: 5px;
+      }
+      .badge::after {
+        content: "";
+        position: absolute;
+        bottom: 27px;
+        right: 119px;
+        width: 0;
+        height: 0;
+        border-left: 4px solid transparent;
+        border-right: 0 solid transparent;
+        border-bottom: 4px solid rgb(215, 68, 91);
+      }
+      .badge::before {
+        content: "";
+        position: absolute;
+        bottom: 27px;
+        right: -5.9px;
+        width: 0;
+        height: 0;
+        border-left: 0px solid transparent;
+        border-right: 6.5px solid transparent;
+        border-bottom: 4px solid rgb(215, 68, 91);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="template-second-div">
+      <div class="badge">MOST POPULAR</div>
+      <table class="template-table-unit-second">
+        <tr>
+            <td class="radio-button">
+              <label><input type="radio" name="unit1"></label>
+            </td>
+            <td>
+              <div class="unit1">
+                <label class="radio">
+                  <span class="unit-span">
+                    <div class="unit">
+                        <p class="unit-p">2 Unit <span class="percentage-span">10% Off</span></p>
+                    </div>
+                  </span>
+                </label>
+                </div>
+            </td>
+            <td>
+              <div class="price-div">
+                <label class="price-label">
+                  <p class="usd-price-p"> $10.00 USD<span class="strikethrough-span">$24.00 USD</span></p>
+                </label>
+              </div>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+              <div class="sizeandcolour-div">
+                <table>
+                  <tr>
+                      <td></td>
+                      <td class="size">Size</td>
+                      <td class="size">Colour</td>
+                  </tr>
+                  <tr>
+                      <td class="numbering">#1</td>
+                      <td><select class="dropdown">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select></td>
+                      <td><select class="dropdown">
+                        <option value="Black">Black</option>
+                        <option value="M">Blue</option>
+                        <option value="L">Daffodil</option>
+                        <option value="XL">Evergreen</option>
+                    </select></td>
+                  </tr>
+                  <tr>
+                      <td class="numbering">#2</td>
+                      <td><select class="dropdown">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select></td>
+                      <td><select class="dropdown">
+                        <option value="Black">Colour</option>
+                        <option value="M">Daffodil</option>
+                        <option value="L">Evergreen</option>
+                        <option value="XL">Flame</option>
+                    </select></td>
+                  </tr>
+                </table>
+              </div>
+            </td>
+            <td></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

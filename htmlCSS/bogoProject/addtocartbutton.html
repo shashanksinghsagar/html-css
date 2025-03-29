@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       body {
+        background-color: white;
+        font-family: Arial, sans-serif;
+        width: 341px;
+        margin: auto;
+        justify-content: center;
+        margin-top: 39px;
+      }
+      .delivery-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: black;
+        font-weight: 500;
+        font-size: 14px;
+      }
+      .delivery-p {
+        color: rgb(255, 107, 130);
+        margin: 0;
+      }
+      .delivery-span {
+        font-weight: 400;
+      }
+      .usd-span {
+        font-size: 14px;
+      }
+      .cart-button {
+        background-color: rgb(255, 107, 130);
+        width: 342px;
+        height: 40px;
+        padding: 10px;
+        gap: 8px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+      }
+      .icon {
+        width: 9.33px;
+        height: 9.33px;
+        border: none;
+        color: rgba(255, 255, 255, 1);
+        margin-bottom: 9px;
+        margin-right: 0;
+      }
+      .cart-text {
+        width: 64px;
+        height: 15px;
+        border: none;
+        font-family: Arial, sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 1);
+        margin-left: 0;
+      }
+      .footer-text {
+        font-family: Arial, sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        font-style: italic;
+        color: rgba(0,0,0,0.4);
+        text-align: right;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="delivery-container">
+      <p class="delivery-p">Free Delivery</p>
+      <p class="delivery-span">Total : $18<span class="usd-span">.00 USD</span></p>
+    </div>
+    <button class="cart-button">
+      <span class="icon">+</span><span class="cart-text">Add to Cart</span> 
+    </button>
+    <p class="footer-text">@ Powered by Pumper</p>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: white;
+        font-family: Arial, sans-serif;
+        width: 341px;
+        margin: auto;
+        justify-content: center;
+        margin-top: 39px;
+      }
+      input[type=radio] {
+        appearance: none;
+        width: 14.46px;
+        height: 14.46px;
+        color: rgb(255, 107, 130);
+        border: 0.9px solid rgb(255, 107, 130);
+        border-radius: 50%;
+        position: relative;
+        transition: 0.15s;
+      }
+      input[type="radio"]:checked::before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        background-color: rgb(255, 107, 130);
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <label><input type="radio" name="First"> First</label>
+    <label><input type="radio" name="Second"> Second</label>
+  </body>
+</html>
