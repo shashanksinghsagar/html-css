@@ -37,6 +37,7 @@ const dropdowns = document.querySelectorAll('.dropdown');
             card.addEventListener("mouseenter", () => {
                 card.style.height = "174.11px";
                 card.style.borderColor = "rgb(255, 107, 130)";
+                card.style.backgroundColor = "rgb(255,249,250)";
                 sizeAndColorDiv.style.display = "block";
                 card.style.cursor = "pointer";
             });
@@ -46,6 +47,7 @@ const dropdowns = document.querySelectorAll('.dropdown');
                 card.style.borderColor = "rgba(0,0,0,0.4)";
                 sizeAndColorDiv.style.display = "none";
                 card.style.cursor = "normal";
+                card.style.backgroundColor = "white";
             });
         });
     });

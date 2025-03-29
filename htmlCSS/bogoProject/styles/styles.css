@@ -8,7 +8,6 @@ body {
 }
 .container {
   background-color: white;
-  font-family: Arial, sans-serif;
   width: 341px;
   margin: auto;
   justify-content: center;
@@ -28,7 +27,6 @@ body {
   background-color: rgba(200,200,200,1);
 }
 .heading-text {
-  font-family: Arial, sans-serif;
   font-weight: 600;
   font-size: 20px;
   color: rgb(255, 107, 130);
@@ -43,7 +41,7 @@ body {
   height: 70px;
   border: 1.5px solid rgba(0,0,0,0.2);
   overflow: hidden;
-  transition: height 0.15s ease-in-out;
+  transition: height 0.3s ease-in-out;
   margin-bottom: 20px;
 }
 .template-div-2 {
@@ -52,7 +50,7 @@ body {
   height: 70px;
   border: 1.5px solid rgba(0,0,0,0.2);
   overflow: visible;
-  transition: height 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: height 0.3s ease-in-out;
   margin-bottom: 20px;
 }
 .template-table {
@@ -67,7 +65,7 @@ input[type=radio] {
   border: 0.9px solid rgb(255, 107, 130);
   border-radius: 50%;
   position: relative;
-  transition: 0.15s;
+  transition: 0.3s;
 }
 input[type="radio"]:checked::before {
   content: "";
@@ -102,7 +100,6 @@ input[type="radio"]:checked::before {
   height: 50px;
 }
 .unit-p {
-  font-family: Arial, sans-serif;
   font-weight: 600;
   font-size: 14px;
   display: flex;
@@ -115,7 +112,6 @@ input[type="radio"]:checked::before {
   align-items: start;
 }
 .percentage-span {
-  font-family: Arial, sans-serif;
   background-color: rgb(255, 107, 130);
   color: white;
   font-weight: normal;
@@ -125,33 +121,28 @@ input[type="radio"]:checked::before {
   font-weight: 400;
 }
 .standard-price {
-  font-family: Arial, sans-serif;
   font-weight: 400;
   font-size: 12px;
   margin-top: 3px;
 
 }
 .usd-price-p {
-  font-family: Arial, sans-serif;
   font-weight: 500;
   font-size: 14.46px;
 }
 .strikethrough-span {
   display: block;
-  font-family: Arial, sans-serif;
   font-weight: 400;
   font-size: 10px;
   color: rgba(0,0,0,0.4);
   text-decoration: line-through;
 }
 .size {
-  font-family: Arial, sans-serif;
   font-weight: 400;
   font-size: 9.94px;
   height: 15px;
 }
 .numbering {
-  font-family: Arial, sans-serif;
   font-weight: 400;
   font-size: 9.04px;
   width: 15px;
@@ -175,7 +166,6 @@ input[type="radio"]:checked::before {
   position: absolute;
   top: -5px;
   right: 5px;
-  font-family: Arial, sans-serif;
   font-weight: 700;
   font-size: 12px;
   max-width: 119px;
@@ -242,7 +232,7 @@ input[type="radio"]:checked::before {
   align-items: center;
   border-radius: 4px;
   cursor: pointer;
-  transition: opacity 0.15s;
+  transition: opacity 0.3s;
 }
 .cart-button:hover {
   opacity: 0.8;
@@ -262,14 +252,12 @@ input[type="radio"]:checked::before {
   width: 64px;
   height: 15px;
   border: none;
-  font-family: Arial, sans-serif;
   font-weight: 500;
   font-size: 12px;
   color: rgba(255, 255, 255, 1);
   margin-left: 0;
 }
 .footer-text {
-  font-family: Arial, sans-serif;
   font-weight: 400;
   font-size: 12px;
   font-style: italic;
